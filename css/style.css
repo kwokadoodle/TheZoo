@@ -1,0 +1,32 @@
+body{
+  background: white;
+}
+nav{
+  background: purple;
+}
+h1{
+  color: blue;
+  text-align: center;
+}
+.urgent {
+  font-style: italic;
+  font-size: 15pt;
+  color: red;
+}
+
+.responsive {
+  max-width:100%;
+}
+
+.sidebyside img {
+  width: 48%;
+}
+
+@media only screen and (max-width: 1000px) {
+  body{
+    background: blue;
+  }
+  .sidebysideimg{
+    width: 100%;
+  }
+}
